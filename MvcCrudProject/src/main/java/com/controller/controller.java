@@ -109,8 +109,7 @@ public class controller {
 		this.productService.inserProductDetails(product);
 		RedirectView view = new RedirectView();
 		view.setUrl(request.getContextPath()+"/");
-		return view;
-		
+		return view;	
 	}
 
 }
